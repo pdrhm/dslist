@@ -10,7 +10,7 @@ import jakarta.persistence.Table;
 @Table(name = "tb_belonging")
 public class Belonging {
 
-	@EmbeddedId
+@EmbeddedId
 private BelongingPK id = new BelongingPK();
 
 private Integer position;
